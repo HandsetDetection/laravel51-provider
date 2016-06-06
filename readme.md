@@ -51,7 +51,7 @@ Or, manually instantiate the client by using:
 Add this to your composer.json.
 
 	"require": {
-	    "HandsetDetection/laravel51-provider": "1.*",
+	    "handsetdetection/laravel51-provider": "1.*",
 	}
 
 ### Step 2: Register the service provider ###
