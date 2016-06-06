@@ -51,7 +51,7 @@ Or, manually instantiate the client by using:
 Add this to your composer.json.
 
 	"require": {
-	    "HandsetDetection/laravel-51-lts-wrapper": "4.*",
+	    "HandsetDetection/laravel51-provider": "1.*",
 	}
 
 ### Step 2: Register the service provider ###
@@ -59,12 +59,12 @@ Add this to your composer.json.
 Register the service provider in config/app.php by inserting into the providers array
 
 	'providers' => [
-	    HandsetDetection\Laravel51LTS\HandsetDetectionServiceProvider::class,
+	    HandsetDetection\Laravel51Provider\HandsetDetectionServiceProvider::class,
 	]
 
 ### Step 3: From the command-line run ###
 
-	php artisan vendor:publish --provider="HandsetDetection\Laravel51LTS\HandsetDetectionServiceProvider"
+	php artisan vendor:publish --provider="HandsetDetection\Laravel51Provider\HandsetDetectionServiceProvider"
 
 This will publish config/handsetdetection.php to your config folder.
 

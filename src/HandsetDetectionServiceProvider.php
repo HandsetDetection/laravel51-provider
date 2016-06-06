@@ -1,6 +1,6 @@
 <?php
 
-namespace HandsetDetection\Laravel51LTS;
+namespace HandsetDetection\Laravel51Provider;
 
 use Illuminate\Support\ServiceProvider;
 use HandsetDetection;
