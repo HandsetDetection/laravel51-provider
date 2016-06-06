@@ -3,7 +3,7 @@
   "description": "A Laravel 5.1 service provider for the HandsetDetection v4.x PHP API kit",
   "license": "MIT",
   "require": {
-    "laravel/framework": "5.1",
+    "laravel/framework": ">5.1",
     "handsetdetection/php-apikit": "4.*"
   },
   "autoload": {
