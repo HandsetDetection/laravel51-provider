@@ -34,7 +34,7 @@ class HandsetDetectionServiceProvider extends ServiceProvider {
     {
         $this->app->singleton('HandsetDetection', function($app) {
             $config = $app['config']['handsetdetection'];
-            return new HD4($config);
+            return new \HandsetDetection\HD4($config);
         });
     }
 }
